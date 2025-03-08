@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="icon" href="./favicon/favicon.ico">
+    <title>House Villa Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Latihan/House Villa/style.css">
+
+    <!-- Hamburger -->
+    <link rel="stylesheet" href="/Latihan/House Villa/hamburgers.css";>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="home">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <!-- Navbar -->
+            <div class="navbar">
+                <div class="logo">
+                    <h1>House</h1>
+                </div>
+                <ul class="menu">
+                    <h1>House</h1>
+                    <h3>Overview</h3>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-house-circle-check"></i>
+                        <a href="#house">Our House</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-card"></i>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gear"></i>
+                        <a href="#service">Services</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <a href="#feedback">Feedback</a>
+                    </li>
+                </ul>
+                <div class="our-app">
+                    <a class="our-app-btn" href="#app">Our Apps</a>
+                    <!-- hamburger -->
+                    <button class="hamburger hamburger--spin" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- HERO -->
+            <div class="hero">
+                <h1>Find Your Dream <br> House With Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quia! Consequuntur, asperiores
+                    voluptatum eaque ipsa accusantium officia et totam cumque.</p>
+                <button>Find Your House</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Our House -->
+    <section class="our-house" id="house">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="500">Most Viewed</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit.</p>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/images/house-1.jpg" alt="house-img" loading="lazy">
+                        <div class="house-desc">
+                            <p>Ujung Kulon, Bandung City, Java</p>
+                            <h2>Villa Home 1</h2>
+                            <h4>Rp. 500.000.000</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/house-2.jpg" alt="house-img" loading="lazy">
+                        <div class="house-desc">
+                            <p>Ujung Kulon, Bandung City, Java</p>
+                            <h2>Villa Home 1</h2>
+                            <h4>Rp. 500.000.000</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/house-3.jpg" alt="house-img" loading="lazy">
+                        <div class="house-desc">
+                            <p>Ujung Kulon, Bandung City, Java</p>
+                            <h2>Villa Home 1</h2>
+                            <h4>Rp. 500.000.000</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/house-4.jpg" alt="house-img" loading="lazy">
+                        <div class="house-desc">
+                            <p>Ujung Kulon, Bandung City, Java</p>
+                            <h2>Villa Home 1</h2>
+                            <h4>Rp. 500.000.000</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/house-5.jpg" alt="house-img" loading="lazy">
+                        <div class="house-desc">
+                            <p>Ujung Kulon, Bandung City, Java</p>
+                            <h2>Villa Home 1</h2>
+                            <h4>Rp. 500.000.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="btn-our-house">
+                <a class="btn-secondary" href="#">See More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Our House -->
+
+    <!-- About Us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-box">
+                <div class="box">
+                    <img src="./assets/images/about-img.jpg" alt="about-img" loading="lazy">
+                </div>
+                <div class="box">
+                    <h1 data-aos="fade-left" data-aos-duration="500">About Us</h1>
+                    <p data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Ipsum accusantium magni consequuntur
+                        placeat distinctio minus neque assumenda ut quaerat accusamus?</p>
+                    <p data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Reiciendis repellendus, distinctio
+                        expedita dolorum accusamus voluptatem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+
+    <!-- Services -->
+    <section class="services" id="service">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="500">Our Work in 3 Steps</h1>
+            <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="services-box">
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Research Phase</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat, ut saepe sint impedit
+                        cupiditate?</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                    <h3>Make a Deal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat, ut saepe sint impedit
+                        cupiditate?</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h3>Determine the Prices</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat, ut saepe sint impedit
+                        cupiditate?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Recover App -->
+    <section class="app" id="app">
+        <div class="container">
+            <div class="app-box">
+                <div class="box">
+                    <h1 data-aos="flip-left" data-aos-duration="800">Our Apps are Availabe At</h1>
+                    <p data-aos="flip-up" data-aos-duration="800" data-aos-delay="300">Lorem ipsum dolor sit amet
+                        consectetur.</p>
+                    <div>
+                        <img src="./assets/images/playstore.png" alt="playstore logo" loading="lazy">
+                        <img src="./assets/images/ios-app.png" alt="playstore logo" loading="lazy">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Recover App -->
+
+    <!-- Feedback -->
+    <section class="feedback" id="feedback">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-duration="500">Feedback <br> From Our Customer</h1>
+            <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.</p>
+            <div class="feedback-box">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-1.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 1</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-2.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 2</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-3.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 3</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-1.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 4</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-2.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 5</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-3.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 6</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-1.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 7</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-2.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 8</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere dolorum illo quae fuga
+                        odit nobis ut doloremque soluta facilis, vitae dolorem eos veniam porro eveniet veritatis
+                        voluptate assumenda consectetur.</p>
+                    <div class="people">
+                        <img src="./assets/images/people-3.jpg" alt="feedback people" loading="lazy">
+                        <div class="people-desc">
+                            <h3>People 9</h3>
+                            <p>UI UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="load-more-btn">Load More <i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- Feedback -->
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <div class="box">
+                    <h2>House</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <div class="footer-icon">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Menu</h3>
+                    <a href="#home">Home</a>
+                    <a href="#house">Our House</a>
+                    <a href="#about">About Us</a>
+                    <a href="#service">Services</a>
+                    <a href="#feedback">Feedback</a>
+                </div>
+                <div class="box">
+                    <h3>Company</h3>
+                    <a href="#">Blog</a>
+                    <a href="#app">Our Apps</a>
+                    <a href="#">Brochure</a>
+                </div>
+                <div class="box">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa-solid fa-envelope"></i> house-villa@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 2405551001</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Jalan Ujung Kulon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <!-- Copyright -->
+    <section class="copyright">
+        <p>&copy; Copyright 2024 by <span>Perceval Inc</span>, All Rights Reserved</p>
+    </section>
+    <!-- Copyright -->
+
+
+    <!-- JS -->
+    <script src="/Latihan/House Villa/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                575: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
